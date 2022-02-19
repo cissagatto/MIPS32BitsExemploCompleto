@@ -14,8 +14,8 @@ void se_simples(int a, int b, int c[], int e[]){
 		a = (a || b); // OR
 		e[0] = a;
 		printf("\na é igual a b");
-        printf("\na: %d", a);
-        printf("\ne[0]: %d", e[0]);
+                printf("\na: %d", a);
+                printf("\ne[0]: %d", e[0]);
 	}
 
 	printf("\na não é igual a b");
@@ -25,15 +25,15 @@ void se_composto(int a, int b, int d, int e[]){
 	if (a != b) {
 		e[0] = d+b;
 		e[1] = (d && b); // AND
-        printf("\na não é igual a b");
-        printf("\ne[0]: %d", e[0]);
-        printf("\ne[1]: %d", e[1]);
+                printf("\na não é igual a b");
+                printf("\ne[0]: %d", e[0]);
+                printf("\ne[1]: %d", e[1]);
 	} else {
 		e[0] = d-b;
 		e[1] = d+b;
 		printf("\na é igual a b");
-        printf("\ne[0]: %d", e[0]);
-        printf("\ne[1]: %d", e[0]);
+                printf("\ne[0]: %d", e[0]);
+                printf("\ne[1]: %d", e[0]);
 	}
 }
 
