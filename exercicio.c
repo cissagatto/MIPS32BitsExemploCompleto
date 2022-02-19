@@ -78,11 +78,12 @@ int main() {
     scanf("%d", &d);
 
     printf(" \n Escolha uma das opções abaixo: ");
-    printf(" \n 1. Soma ");
-    printf(" \n 2. Media ");
-    printf(" \n 3. Teste 1 ");
-    printf(" \n 4. Teste 2 ");
-    printf(" \n 5. Teste 3 ");
+    printf(" \n 1. Se Simples ");
+    printf(" \n 2. Se Composto ");
+    printf(" \n 3. For ");
+    printf(" \n 4. While ");
+    printf(" \n 5. Matriz ");
+    printf(" \n 6. Recursão ");
 
     printf(" \n Digite o número da opção desejada: ");
     scanf("%d", &op);
@@ -109,7 +110,7 @@ int main() {
             matriz(h)
             break;
 	case 6:
-            printf(" \n Opção selecionada: 5 - RECURSÃO");
+            printf(" \n Opção selecionada: 6 - RECURSÃO");
             fib()
             break;
         default:
